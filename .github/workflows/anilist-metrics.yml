@@ -8,6 +8,11 @@ on:
     branches:
       - main
       - master
+
+# このpermissionsブロックを追加または確認します
+permissions:
+  contents: write
+  
 jobs:
   anilist:
     runs-on: ubuntu-latest
