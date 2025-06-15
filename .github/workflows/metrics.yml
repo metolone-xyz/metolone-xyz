@@ -8,6 +8,11 @@ on:
   push:
     branches:
       - main
+      
+# このpermissionsブロックを追加または確認します
+permissions:
+  contents: write
+
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
