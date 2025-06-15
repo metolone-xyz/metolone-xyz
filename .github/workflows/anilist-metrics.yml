@@ -40,8 +40,8 @@ jobs:
           
           # 表示するアニメの最大数（お気に入り・視聴中それぞれ）
           # 必要に応じて数を変更してください
-          plugin_anilist_limit: 7
+          plugin_anilist_limit: 10
           
           # 表示するキャラクターの最大数
           # 必要に応じて数を変更してください
-          plugin_anilist_limit_characters: 5
+          plugin_anilist_limit_characters: 22
