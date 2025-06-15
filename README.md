@@ -1,6 +1,13 @@
 ## 🐮✋
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=metolone-xyz&show_icons=true&show_icons=true&count_private=true&theme=neon&hide=contribs,prs)
+- uses: metolone-xyz
+  with:
+    plugin_languages: yes
+    plugin_languages_sections: recently-used
+    plugin_languages_recent_load: 400
+    plugin_languages_recent_days: 14
+
+
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=metolone-xyz&layout=compact&theme=neon)](https://github.com/anuraghazra/github-readme-stats)
 
 [![My Skills](https://skillicons.dev/icons?i=blender,py,raspberrypi,remix,rust,unity,apple&theme=dark)](https://skillicons.dev)
