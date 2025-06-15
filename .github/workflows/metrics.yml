@@ -1,0 +1,36 @@
+name: Metrics
+on:
+  # スケジュール実行（毎日0時に実行）
+  schedule:
+    - cron: "0 0 * * *"
+  # リポジトリへのpush時にも実行（テスト用）
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          # `user` と `token` は必須です
+          user: metolone-xyz  # ここにあなたのGitHubユーザー名を入力
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          # --- ここからが言語プラグインの設定です ---
+
+          # 言語プラグインを有効にする
+          plugin_languages: yes
+
+          # ⚠️ プライベートリポジトリの活動を正確に分析するために `indepth` モードを有効化
+          plugin_languages_indepth: yes
+          
+          # 表示する言語の数を設定（デフォルトは8）
+          plugin_languages_limit: 8
+
+          # 特定の言語を非表示にする（例: HTML, CSS）
+          plugin_languages_ignored: html, css
+
+          # 行数やバイトサイズも表示する
+          plugin_languages_details: lines, bytes-size
