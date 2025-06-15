@@ -1,7 +1,7 @@
 ## 🐮✋
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=metolone-xyz&layout=compact&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=tokyonight)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=metolone-xyz&show_icons=true&theme=tokyonight)
 
 [![My Skills](https://skillicons.dev/icons?i=blender,py,raspberrypi,remix,rust,swift,unity,apple&theme=dark)](https://skillicons.dev)
 
