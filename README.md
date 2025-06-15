@@ -9,3 +9,4 @@
 
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=metolone-xyz&theme=tokyonight&border_radius=5&date_format=n%2Fj%5B%2FY%5D)](https://git.io/streak-stats)
 
+![Metrics](https://github.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/blob/main/metrics.svg)
